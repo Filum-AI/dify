@@ -159,7 +159,7 @@ const translation = {
   account: {
     account: 'Account',
     myAccount: 'My Account',
-    studio: 'Dify Studio',
+    studio: 'Studio',
     avatar: 'Avatar',
     name: 'Name',
     email: 'Email',
