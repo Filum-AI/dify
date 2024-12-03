@@ -9,7 +9,6 @@ import { useDebounceFn } from 'ahooks'
 // Components
 import ExternalAPIPanel from '../../components/datasets/external-api/external-api-panel'
 import Datasets from './Datasets'
-import DatasetFooter from './DatasetFooter'
 import ApiServer from './ApiServer'
 import Doc from './Doc'
 import TabSliderNew from '@/app/components/base/tab-slider-new'
@@ -107,7 +106,6 @@ const Container = () => {
       {activeTab === 'dataset' && (
         <>
           <Datasets containerRef={containerRef} tags={tagIDs} keywords={searchKeywords} />
-          <DatasetFooter />
           {showTagManagementModal && (
             <TagManagementModal type='knowledge' show={showTagManagementModal} />
           )}
